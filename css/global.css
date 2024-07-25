@@ -7,6 +7,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FEEEFF;
 }
+
+@font-face {
+    font-family: "Playfair Display SC";
+    src: url('/assets/fonts/PlayfairDisplaySC-Regular.woff2') format('woff2'),
+         url('/assets/fonts/PlayfairDisplaySC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   
 .header {
     display: grid;
