@@ -95,3 +95,33 @@
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.subscribe {
+    margin: 6em;
+    text-align: center;
+}
+  
+input[type=email] {
+    width: 60%;
+    padding: 10px 15px;
+    border: 2px black solid;
+}
+  
+input[type=submit] {
+    background: black;
+    color: #FEEEFF;
+}
+
+footer {
+    width: 100%;
+    height: 2.5rem;
+    background: black;
+    color: #FEEEFF;
+    text-align: center;
+}
+  
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+    font-family: 'PlayfairDisplaySC', Times, serif;
+}
