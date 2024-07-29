@@ -15,13 +15,21 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Oregano';
+    src: url('/assets/fonts/Oregano-Regular.woff2') format('woff2'),
+         url('/assets/fonts/Oregano-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #FEEEFF;
-    padding: 1rem;
+    padding: 0 1rem 0 1rem;
 }
 
 .header .logo {
@@ -56,6 +64,15 @@ body {
 .link:hover {
     background-color: pink;
     color: white;
+}
+
+.ET {
+    font-family: "Oregano";
+    font-size: 48px;
+    color: #FBBBFF;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+    letter-spacing: 10px;
 }
 
 footer {
