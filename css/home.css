@@ -111,17 +111,3 @@ input[type=submit] {
     background: black;
     color: #FEEEFF;
 }
-
-footer {
-    background: black;
-    color: #FEEEFF;
-    text-align: center;
-}
-  
-footer p {
-    font-family: 'PlayfairDisplaySC', Times, serif;
-    font-size: 1.2em;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
