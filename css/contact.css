@@ -1,0 +1,30 @@
+.contactcontainer {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "contactimage contactinfo";
+  }
+  
+  .contactimage {
+    grid-area: contactimage;
+  }
+  
+  .contactinfo {
+    grid-area: contactinfo;
+  }
+  
+  .contactimage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: 2px solid black;
+  }
+  
+  .contactinfo h3 {
+    margin-bottom: 20px;
+  }
