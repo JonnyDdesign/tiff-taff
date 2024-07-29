@@ -7,4 +7,4 @@ Lollie & Claire is a travel and blog site I created to showcase my ability to de
 HTML, CSS, and JavaScript
 
 ## Installation/Usage
-Eventually this site will be live and can be reached at a future url to be disclosed shortly.
+Eventually this site will be live and can be reached at a future url to be disclosed shortly. In the meantime, feel free to clone this repo and open the index.html file in your broweser to view a local version of the site.
