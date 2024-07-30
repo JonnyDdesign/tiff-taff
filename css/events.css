@@ -1,0 +1,27 @@
+.eventsMain {
+    background-image: url(/assets/images/eventsMain.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.eventsMain h1 {
+    font-size: 64px;
+    color: #FEEEFF;
+    letter-spacing: 2;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.upcomingTravels {
+    display: flex;
+    text-align: center;
+}
+
+.pastTravels {
+    display: flex;
+    text-align: center;
+}
