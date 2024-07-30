@@ -88,3 +88,23 @@ footer p {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+
+.createdBy a:link {
+    text-decoration: none;
+    color: #FEEEFF;
+}
+
+.createdBy a:visited {
+    text-decoration: none;
+    color: #65FF5B;
+}
+
+.createdBy a:hover {
+    text-decoration: underline;
+    color: #FBBBFF;
+}
+
+.createdBy a:active {
+    text-decoration: underline;
+    color: blue;
+}

@@ -104,6 +104,7 @@
 .subscribe p {
     font-size: 18px;
     padding-bottom: 30px;
+    padding-right: 100px;
 }
   
 input[type=email] {
