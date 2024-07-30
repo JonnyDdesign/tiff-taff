@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'VujahdayScript';
+    src: url('/assets/fonts/VujahdayScript-Regular.woff2') format('woff2'),
+         url('/assets/fonts/VujahdayScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .eventsMain {
     background-image: url(/assets/images/eventsMain.webp);
     background-size: cover;
@@ -9,19 +17,34 @@
 }
 
 .eventsMain h1 {
-    font-size: 64px;
+    font-family: 'VujahdayScript', 'Courier', 'serif';
+    font-size: 84px;
     color: #FEEEFF;
-    letter-spacing: 2;
+    letter-spacing: 2.5;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .upcomingTravels {
     display: flex;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upcomingTravels h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 20px;
 }
 
 .pastTravels {
     display: flex;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pastTravels h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 20px;
 }
