@@ -1,3 +1,12 @@
+.ET {
+    font-family: "Oregano", "serif";
+    font-size: 48px;
+    color: #FBBBFF;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+    letter-spacing: 10px;
+}
+
 .main {
     display: grid;
     grid-template-columns: repeat(8, minmax(0, 1fr));

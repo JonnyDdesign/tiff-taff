@@ -23,6 +23,14 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'VujahdayScript';
+    src: url('/assets/fonts/VujahdayScript-Regular.woff2') format('woff2'),
+         url('/assets/fonts/VujahdayScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   
 .header {
     display: flex;
@@ -66,17 +74,8 @@ body {
     color: white;
 }
 
-.ET {
-    font-family: "Oregano";
-    font-size: 48px;
-    color: #FBBBFF;
-    text-align: center;
-    text-shadow: 3px 3px 3px #000000;
-    letter-spacing: 10px;
-}
-
 footer {
-    background: black;
+    background: #1F2041;
     color: #FEEEFF;
     text-align: center;
 }
@@ -91,10 +90,10 @@ footer p {
 
 .createdBy a:link, a:visited {
     text-decoration: none;
-    color: #FBBBFF;
+    color: #14BDEB;
 }
 
 .createdBy a:hover, a:active {
     text-decoration: underline;
-    color: #9DFF96;
+    color: #94FBAB;
 }
