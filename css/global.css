@@ -67,11 +67,14 @@ body {
     color: black;
     font-size: 22px;
     font-weight: bold;
+    transition: padding 0.3s ease;
 }
   
 .link:hover {
     background-color: pink;
     color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 footer {
