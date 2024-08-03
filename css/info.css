@@ -28,7 +28,7 @@ main h1 {
     justify-content: center;
     padding: 20px;
     margin: 50px auto;
-    background-color: rgba(31, 32, 65, 0.9);
+    background-color: rgb(31, 32, 65);
     box-shadow: 0 0 10px #1F2041;
     border-radius: 10px;
     box-sizing: border-box;
@@ -81,6 +81,45 @@ main h1 {
     max-width: 40%;
     height: auto;
     box-shadow: 0 0 5px #1F2041;
+}
+
+/* Card aStyles*/
+.about-us-icons .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(148, 251, 171, 0.9);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #777;
 }
 
 /*.about-us ul {
