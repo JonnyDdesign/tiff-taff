@@ -20,6 +20,20 @@ main h1 {
     box-sizing: border-box;
 }
 
+.about-us-icons {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: rgba(31, 32, 65, 0.9);
+    box-shadow: 0 0 10px #1F2041;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
 .about-us h2 {
     width: 100%;
     color: #1F2041;
@@ -28,6 +42,20 @@ main h1 {
     margin-bottom: 20px;
     text-align: center;
     text-decoration: underline;
+}
+
+.about-us-icons h2 {
+    color: white;
+    width: 100%;
+    font-family: "Oregano", "serif";
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-us-icons h3 {
+    color: white;
 }
 
 .about-us-content {
@@ -42,6 +70,10 @@ main h1 {
     color: black;
     text-align: left;
     margin: 60px 50px 10px 20px;
+}
+
+.about-us-icons p {
+    color: white;
 }
 
 .about-us-img {
