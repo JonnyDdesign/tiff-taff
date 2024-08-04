@@ -24,13 +24,15 @@
     margin-right: auto;
     height: 450px;
     width: auto;
-    border: 3px solid black;
+    border: 3px solid #000000;
     border-radius: 90% 10% / 10% 30%;
 }
   
-.contactInfo h3 {
+.contactInfo h2 {
+    font-family: "Oregano", "serif";
+    color: #000000;
     padding-top: 50px;
-    font-size: 28px;
+    font-size: 32px;
     margin-left: 20px;
     margin-bottom: 20px;
     display: inline-block;

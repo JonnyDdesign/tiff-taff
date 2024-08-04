@@ -5,7 +5,7 @@
     
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FEEEFF;
+    background-color: #FFDAE9;
 }
 
 @font-face {
@@ -36,7 +36,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FEEEFF;
+    background-color: #FFDAE9;
     padding: 0 1rem 0 1rem;
 }
 
@@ -64,22 +64,22 @@ body {
   
 .nav-links .link {
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-size: 22px;
     font-weight: bold;
     transition: padding 0.3s ease;
 }
   
 .link:hover {
-    background-color: pink;
-    color: white;
+    background-color: #CCCCFF;
+    color: #FFFFFF;
     padding: 3px;
     border-radius: 5px;
 }
 
 footer {
-    background: #1F2041;
-    color: #FEEEFF;
+    background: #000000;
+    color: #FFDAE9;
     text-align: center;
 }
   
@@ -93,10 +93,10 @@ footer p {
 
 .createdBy a:link, a:visited {
     text-decoration: none;
-    color: #14BDEB;
+    color: #FFFAF0;
 }
 
 .createdBy a:hover, a:active {
     text-decoration: underline;
-    color: #94FBAB;
+    color: #CCCCFF;
 }
