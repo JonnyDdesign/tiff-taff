@@ -21,7 +21,7 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .mainpic2 {
@@ -30,7 +30,7 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .mainpic3 {
@@ -39,7 +39,7 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .mainpic4 {
@@ -48,7 +48,7 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .mainpic5 {
@@ -57,7 +57,7 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .mainpic6 {
@@ -66,7 +66,7 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .mainpic7 {
@@ -75,7 +75,7 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .mainpic8 {
@@ -84,7 +84,7 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .mainpic9 {
@@ -93,7 +93,7 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .fillerpic1 {
@@ -102,11 +102,11 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .subscribe {
-    margin: 6em;
+    margin: 4rem;
     text-align: center;
 }
 
@@ -120,7 +120,7 @@ input[type=email] {
     font-size: 16px;
     width: 70%;
     padding: 10px 15px;
-    border: 3px #000000 solid;
+    border: 3px solid #000000;
 }
   
 input[type=submit] {

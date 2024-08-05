@@ -23,7 +23,7 @@ section {
     max-width: 1200px;
     background-color: #FFFFFF;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .upcomingTravels {
@@ -35,7 +35,7 @@ section {
 .upcomingTravels h2 {
     color: #000000;
     font-family: "Oregano", "serif";
-    font-size: 36px;
+    font-size: 40px;
     letter-spacing: 1.5px;
     text-decoration: underline;
     margin: 20px;
@@ -50,10 +50,17 @@ section {
 .pastTravels h2 {
     color: #000000;
     font-family: "Oregano", "serif";
-    font-size: 36px;
+    font-size: 40px;
     letter-spacing: 1.5px;
     text-decoration: underline;
     margin: 20px;
+}
+
+h3 {
+    font-family: 'PlayfairDisplaySC', Times, serif;
+    font-size: 24px;
+    margin: 0;
+    color: #000000;
 }
 
 .card-container {
@@ -67,10 +74,11 @@ section {
 .card {
     background: #FFFFFF;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     width: 300px;
     transition: transform 0.2s ease;
+    margin: 20px;
 }
 
 .card:hover {
@@ -85,12 +93,6 @@ section {
 
 .card-content {
     padding: 15px;
-}
-
-.card-title {
-    font-size: 1.5em;
-    margin: 0;
-    color: #000000;
 }
 
 .card-description {
