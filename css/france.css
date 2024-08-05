@@ -36,6 +36,7 @@ h2 {
 }
 
 p {
+    font-size: 1.2rem;
     text-align: left;
     margin: 10px 100px;
 }
@@ -82,4 +83,13 @@ p {
 
 .grid-item-6 {
     grid-area: pic6;
+}
+
+ul {
+    margin: 20px 200px;
+    line-height: 2;
+}
+
+li {
+    font-size: 1.2rem;
 }
