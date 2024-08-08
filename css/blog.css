@@ -17,6 +17,7 @@ section {
 }
 
 .mainBlog {
+    background-color: rgba(255, 255, 255, 0.7);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -37,15 +38,14 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .card {
     position: relative;
     display: block;
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
