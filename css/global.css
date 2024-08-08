@@ -78,7 +78,10 @@ body {
 }
 
 footer {
-    background: #000000;
+    background-image: url(/assets/images/lc-footer-background.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #FFDAE9;
     text-align: center;
 }
