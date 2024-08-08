@@ -3,7 +3,7 @@
     max-width: 1200px;
     margin: 2rem auto;
     position: relative;
-    background-image: url(/assets/images/lakeTekapo1.webp);
+    background-image: url(/assets/images/easterIsland1.webp);
     background-size: cover;
     background-position: center;
     height: 45rem;
@@ -14,23 +14,21 @@
 
 .easterislandContainer h1 {
     font-family: 'VujahdayScript', 'Courier', 'serif';
-    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 5%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%);
-    color: #FFFFFF;
-    font-size: 3rem;
+    color: #000000;
+    font-size: 3.5rem;
     text-align: center;
     margin: 0;
     padding: 20px;
-    border-radius: 50%;
 }
 
 .easterislandContainer h1 span {
     display: block;
-    font-size: 1.4rem;
-    color: #FFFFFF;
+    font-size: 1.5rem;
+    color: #000000;
 }
 
 h2 {
