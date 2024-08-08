@@ -3,7 +3,7 @@
     max-width: 1200px;
     margin: 2rem auto;
     position: relative;
-    background-image: url(/assets/images/chiangMai.webp);
+    background-image: url(/assets/images/lakeTekapo1.webp);
     background-size: cover;
     background-position: center;
     height: 45rem;
@@ -17,7 +17,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 5%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%);
     color: #FFFFFF;
     font-size: 3rem;
