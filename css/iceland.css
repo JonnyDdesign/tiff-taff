@@ -3,7 +3,7 @@
     max-width: 1200px;
     margin: 2rem auto;
     position: relative;
-    background-image: url(/assets/images/easterIsland1.webp);
+    background-image: url(/assets/images/iceland1.webp);
     background-size: cover;
     background-position: center;
     height: 45rem;
@@ -15,14 +15,14 @@
 .icelandContainer h1 {
     font-family: 'VujahdayScript', 'Courier', 'serif';
     position: absolute;
-    top: 5%;
-    left: 50%;
+    top: 1%;
+    right: 3%;
     transform: translate(-50%);
     color: #000000;
     font-size: 3.5rem;
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 0px;
 }
 
 .icelandContainer h1 span {
