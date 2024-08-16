@@ -15,7 +15,7 @@
 .austriaContainer h1 {
     font-family: 'VujahdayScript', 'Courier', 'serif';
     position: absolute;
-    top: 2%;
+    top: -2%;
     left: 15%;
     transform: translate(-50%);
     color: #000000;
