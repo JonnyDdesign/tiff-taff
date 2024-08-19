@@ -1,0 +1,147 @@
+.baliContainer {
+    width: 80%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    position: relative;
+    background-image: url(/assets/images/austria1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 45rem;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 20px #000000;
+    border-radius: 10px;
+}
+
+.baliContainer h1 {
+    font-family: 'VujahdayScript', 'Courier', 'serif';
+    position: absolute;
+    top: -2%;
+    left: 15%;
+    transform: translate(-50%);
+    color: #000000;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.baliContainer h1 span {
+    display: block;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+h2 {
+    font-family: "Oregano", "serif";
+    font-size: 2.5rem;
+    text-align: center;
+    color: #000000;
+    padding: 10px 0;
+    text-decoration: underline;
+    letter-spacing: 2.5px;
+}
+
+.bali-p {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.5;
+    margin: 30px 160px;
+}
+
+.bali-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "pic1 pic2 pic3"
+    "pic4 pic5 pic6";
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 150px;
+}
+
+.bali-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.grid-item-1 {
+    grid-area: pic1;
+}
+
+.grid-item-2 {
+    grid-area: pic2;
+}
+
+.grid-item-3 {
+    grid-area: pic3;
+}
+
+.grid-item-4 {
+    grid-area: pic4;
+}
+
+.grid-item-5 {
+    grid-area: pic5;
+}
+
+.grid-item-6 {
+    grid-area: pic6;
+}
+
+ul {
+    margin: 20px 200px;
+    line-height: 2;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+table {
+    width: 50%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.top-row {
+    background-color: #CCCCFF;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.center-table-text {
+    text-align: center;
+    padding: 10px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 30px;
+}
+.button-container button {
+    background-color: #CCCCFF;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
