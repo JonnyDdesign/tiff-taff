@@ -3,7 +3,7 @@
     max-width: 1200px;
     margin: 2rem auto;
     position: relative;
-    background-image: url(/assets/images/austria1.webp);
+    background-image: url(/assets/images/bali1.webp);
     background-size: cover;
     background-position: center;
     height: 45rem;
@@ -15,8 +15,8 @@
 .baliContainer h1 {
     font-family: 'VujahdayScript', 'Courier', 'serif';
     position: absolute;
-    top: -2%;
-    left: 15%;
+    top: 3%;
+    left: 50%;
     transform: translate(-50%);
     color: #000000;
     font-size: 3.5rem;
