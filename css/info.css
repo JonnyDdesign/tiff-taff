@@ -97,7 +97,6 @@ main h1 {
 
 .card:hover {
     transform: translateY(-5px);
-    cursor: pointer;
 }
 
 .card-icon {
