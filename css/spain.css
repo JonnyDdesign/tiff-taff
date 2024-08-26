@@ -1,9 +1,9 @@
-.baliContainer {
+.spainContainer {
     width: 80%;
     max-width: 1200px;
     margin: 2rem auto;
     position: relative;
-    background-image: url(/assets/images/bali1.webp);
+    background-image: url(/assets/images/spain1.webp);
     background-size: cover;
     background-position: center;
     height: 45rem;
@@ -12,11 +12,11 @@
     border-radius: 10px;
 }
 
-.baliContainer h1 {
+.spainContainer h1 {
     font-family: 'VujahdayScript', 'Courier', 'serif';
     position: absolute;
     top: 3%;
-    left: 50%;
+    right: 0%;
     transform: translate(-50%);
     color: #000000;
     font-size: 3.5rem;
@@ -25,7 +25,7 @@
     padding: 20px;
 }
 
-.baliContainer h1 span {
+.spainContainer h1 span {
     display: block;
     font-size: 1.5rem;
     color: #000000;
@@ -41,14 +41,14 @@ h2 {
     letter-spacing: 2.5px;
 }
 
-.bali-p {
+.spain-p {
     font-size: 1.2rem;
     text-align: left;
     line-height: 1.5;
     margin: 30px 160px;
 }
 
-.bali-grid {
+.spain-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -62,7 +62,7 @@ h2 {
     margin: 40px 150px;
 }
 
-.bali-grid img {
+.spain-grid img {
     width: 100%;
     height: 100%;
     object-fit: cover;
