@@ -51,6 +51,25 @@ body {
     max-width: 150px;
 }
 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+    transform-origin: center;
+}
+
 .nav-links {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +162,57 @@ footer .createdBy {
 .createdBy a:hover, a:active {
     text-decoration: underline;
     color: #CCCCFF;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+        position: absolute;
+        top: 3rem;
+        right: 3rem;
+        z-index: 1001;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 3rem;
+        right: 2rem;
+        background-color: #FFFFFF;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .nav-links.show {
+        display: block;
+    }
+
+    .nav-links li a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 2rem;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
 }
