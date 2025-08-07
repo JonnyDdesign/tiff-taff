@@ -104,13 +104,13 @@ body {
   
 .nav-links li {
     font-family: 'PlayfairDisplaySC';
-    margin-left: 1rem;
+    margin: 0.8rem;
 }
   
 .nav-links .link {
     text-decoration: none;
     color: #000000;
-    font-size: 22px;
+    font-size: 2rem;
     font-weight: bold;
     transition: padding 0.3s ease;
 }
@@ -184,6 +184,14 @@ footer .createdBy {
 }
 
 @media (max-width: 1024px) {
+    .header .logo {
+        max-width: 120px;
+    }
+
+    .nav-links .link {
+        font-size: 1.3rem;
+    }
+
     footer p {
         font-size: 1rem;
     }
@@ -195,13 +203,13 @@ footer .createdBy {
 
 @media (max-width: 768px) {
     .header .logo {
-        max-width: 120px;
+        max-width: 100px;
     }
 
     .hamburger {
         display: flex;
         position: absolute;
-        top: 3rem;
+        top: 2.5rem;
         right: 3rem;
         z-index: 1001;
     }
@@ -252,15 +260,16 @@ footer .createdBy {
 
 @media (max-width: 435px) {
     .header .logo {
-        max-width: 90px;
+        max-width: 80px;
     }
 
     footer P {
         font-size: 0.9rem;
+        padding: 5px 0;
     }
 
     .social-media {
-        margin: 5px;
+        margin: 0;
     }
 
     .social-icon {
