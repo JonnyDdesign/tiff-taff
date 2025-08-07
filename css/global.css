@@ -63,8 +63,8 @@ body {
 
 .close-btn {
     position: absolute;
-    top: 0.3rem;
-    right: 0.3rem;
+    top: 0.5rem;
+    right: 1rem;
     font-size: 2rem;
     color: #000000;
     display: none;
@@ -261,6 +261,10 @@ footer .createdBy {
 @media (max-width: 435px) {
     .header .logo {
         max-width: 80px;
+    }
+
+    .hamburger {
+        top: 2rem;
     }
 
     footer P {
