@@ -61,6 +61,25 @@ body {
     z-index: 1001;
 }
 
+.close-btn {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+    font-size: 2rem;
+    color: #000000;
+    display: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.nav-active .close-btn {
+    display: block;
+}
+
+.nav-active .hamburger {
+    display: none;
+}
+
 .hamburger span {
     height: 3px;
     width: 100%;
@@ -114,7 +133,7 @@ footer {
   
 footer p {
     font-family: 'PlayfairDisplaySC', Times, serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     margin: 0;
     padding: 10px 0px;
 }
@@ -151,7 +170,7 @@ footer p {
 }
 
 footer .createdBy {
-    font-size: 14px;
+    font-size: 1.2rem;
 }
 
 .createdBy a:link, a:visited {
@@ -162,6 +181,16 @@ footer .createdBy {
 .createdBy a:hover, a:active {
     text-decoration: underline;
     color: #CCCCFF;
+}
+
+@media (max-width: 1024px) {
+    footer p {
+        font-size: 1rem;
+    }
+
+    footer .createdBy {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -175,25 +204,6 @@ footer .createdBy {
         top: 3rem;
         right: 3rem;
         z-index: 1001;
-    }
-
-    .close-btn {
-        position: absolute;
-        top: 0.3rem;
-        right: 0.3rem;
-        font-size: 2rem;
-        color: #000000;
-        display: none;
-        cursor: pointer;
-        z-index: 1001;
-    }
-
-    .nav-active .close-btn {
-        display: block;
-    }
-
-    .nav-active .hamburger {
-        display: none;
     }
 
     .nav-links {
@@ -243,5 +253,22 @@ footer .createdBy {
 @media (max-width: 435px) {
     .header .logo {
         max-width: 90px;
+    }
+
+    footer P {
+        font-size: 0.9rem;
+    }
+
+    .social-media {
+        margin: 5px;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer .createdBy {
+        font-size: 0.9rem;
     }
 }
