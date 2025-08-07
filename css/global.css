@@ -177,11 +177,30 @@ footer .createdBy {
         z-index: 1001;
     }
 
+    .close-btn {
+        position: absolute;
+        top: 0.3rem;
+        right: 0.3rem;
+        font-size: 2rem;
+        color: #000000;
+        display: none;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .nav-active .close-btn {
+        display: block;
+    }
+
+    .nav-active .hamburger {
+        display: none;
+    }
+
     .nav-links {
         display: none;
         position: absolute;
-        top: 3rem;
-        right: 2rem;
+        top: 0.3rem;
+        right: 0.3rem;
         background-color: #FFFFFF;
         padding: 1rem;
         border-radius: 8px;
