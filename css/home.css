@@ -1,10 +1,52 @@
 .ET {
     font-family: 'VujahdayScript', 'Courier', 'serif';
-    font-size: 48px;
+    font-size: 4rem;
     color: #CCCCFF;
     text-align: center;
     text-shadow: 3px 3px 3px #000000;
     letter-spacing: 10px;
+}
+
+.intro-blurb {
+    max-width: 1300px;
+    margin: 1.5rem auto 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.blurb-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+    text-shadow: none;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #CCCCFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-shadow: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    letter-spacing: 2px;
+}
+
+.cta-button:visited {
+    color: #000000;
+}
+
+.cta-button:hover {
+    background-color: #666699;
+    color: #FFFFFF;
 }
 
 .main {
@@ -146,6 +188,15 @@ input[type=submit] {
         font-size: 2.5rem;
     }
 
+    .intro-blurb {
+        margin: 1.5rem auto 2.5rem auto;
+    }
+    
+    .blurb-text {
+        font-size: 1.05rem;
+        padding: 0 0.5rem;
+    }
+
     .main {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -189,6 +240,11 @@ input[type=submit] {
 @media (max-width: 435px) {
     .ET {
         font-size: 2rem;
+    }
+
+    .cta-button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
     }
 
     .subscribe {
