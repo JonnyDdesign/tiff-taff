@@ -70,12 +70,13 @@
     font-size: 3.5rem;
     letter-spacing: 1.5px;
     text-decoration: underline;
+    text-align: center;
     margin: 20px;
 }
 
 h3 {
     font-family: 'PlayfairDisplaySC', Times, serif;
-    font-size: 24px;
+    font-size: 1.7rem;
     margin: 0;
     color: #000000;
 }
@@ -113,7 +114,7 @@ h3 {
 }
 
 .card-description {
-    font-size: 1em;
+    font-size: 1rem;
     margin: 10px 0;
     color: #000000;
 }
@@ -133,15 +134,148 @@ h3 {
     color: #000000;
 }
 
+/* Responsive styling */
+@media (max-width: 1440px) {
+    .intro-section {
+        max-width: 1200px;
+    }
+
+    .upcomingTravels, .pastTravels {
+        max-width: 1200px;
+    }
+
+    .card {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .intro-section {
+        max-width: 1000px;
+    }
+
+    .upcomingTravels, .pastTravels {
+        max-width: 1000px;
+    }
+}
+
 @media (max-width: 1024px) {
     .eventsMain h1 {
         font-size: 4rem;
         padding-top: 120px;
+    }
+
+    .intro-section {
+        max-width: 700px;
+    }
+
+    .intro-text {
+        font-size: 1.4rem;
+    }
+
+    .upcomingTravels, .pastTravels {
+        max-width: 700px;
+    }
+
+    .card {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-section {
+        padding: 10px;
+        max-width: 550px;
+    }
+
+    .intro-text {
+        font-size: 1.3rem;
+    }
+
+    .upcomingTravels, .pastTravels {
+        max-width: 550px;
+    }
+
+    .upcomingTravels h2 {
+        font-size: 2.7rem;
+        letter-spacing: 1.4px;
+        margin: 10px;
+    }
+
+    .card {
+        width: 300px;
+        margin: 10px;
+    }
+
+    .pastTravels h2 {
+        font-size: 2.7rem;
+        letter-spacing: 1.4px;
+        margin: 10px;
     }
 }
 
 @media (max-width: 435px) {
     .eventsMain h1 {
         font-size: 3rem;
+    }
+
+    .intro-section {
+        max-width: 350px;
+    }
+
+    .intro-text {
+        font-size: 1.1rem;
+    }
+
+    .upcomingTravels, .pastTravels {
+        max-width: 350px;
+    }
+
+    .upcomingTravels h2 {
+        font-size: 2rem;
+        letter-spacing: 1.2px;
+        margin: 5px;
+    }
+
+    .pastTravels h2 {
+        font-size: 2rem;
+        letter-spacing: 1.2px;
+        margin: 5px;
+    }
+
+    .card-container {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 250px;
+        margin: 5px;
+    }
+
+    .card-img {
+        height: 180px;
+    }
+
+    .card-content {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .card-description {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .card .card-button {
+        display: block;
+        padding: 10px;
+        border-radius: 8px;
+        width: 60%;
+        margin: 0 auto;
+        font-size: 0.9rem;
     }
 }
