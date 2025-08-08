@@ -213,3 +213,49 @@ main h1 {
         font-size: 1rem;
     }
 }
+
+@media (max-width: 435px) {
+    main h1 {
+        font-size: 3.5rem;
+    }
+
+    .about-us h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-us-content {
+        flex-direction: column;
+    }
+
+    .about-us-icons h2 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .about-us-p {
+        font-size: 0.9rem;
+    }
+    
+    .about-us-img {
+        margin: 15px;
+        max-width: 100%;
+        box-shadow: 0px 0px 5px #000000;
+    }
+
+    .card {
+        width: 80%;
+        height: 180px;
+    }
+
+    .fa-brands:before, .fa-regular:before, .fa-solid:before, .fa:before, .fab:before, .far:before, .fas:before {
+        font-size: 1.8rem;
+    }
+
+    .card-content h3 {
+        font-size: 1.1rem;
+    }
+    
+    .card-content p {
+        font-size: 0.9rem;
+    }
+}
