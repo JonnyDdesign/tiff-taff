@@ -19,14 +19,16 @@
 
 .intro-section {
     padding: 20px;
-    margin: 0;
+    margin: 40px auto;
     max-width: 1400px;
-    background-color: rgba(204, 204, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .intro-text {
-    font-size: 1.1rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     text-align: center;
 }
