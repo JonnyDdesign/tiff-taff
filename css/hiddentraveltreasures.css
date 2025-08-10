@@ -72,7 +72,7 @@
 
 /* Call to Action */
 .call-to-action {
-    background-color: #f4f4f4;
+    background-color: rgba(204, 204, 255, 0.7);
     padding: 20px;
     text-align: center;
     margin-top: 40px;
@@ -85,8 +85,8 @@
 }
 
 .cta-button {
-    background-color: #1a73e8;
-    color: white;
+    background-color: #FFFFFF;
+    color: #000000;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
