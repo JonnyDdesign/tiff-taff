@@ -198,10 +198,10 @@ li {
     }
 
     .bali-grid {
-        grid-template-columns: 1fr 1fr; /* 2 columns */
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
-            "pic1 pic2"
-            "pic3 pic4";
+        "pic1 pic2"
+        "pic3 pic4";
         margin: 30px 20px;
         gap: 15px;
     }
