@@ -35,13 +35,14 @@
 /* Main Blog Post */
 .main-blog-post {
     padding: 20px;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .main-blog-post h2 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px;
 }
 
 .main-blog-post p {
@@ -51,9 +52,10 @@
 }
 
 .main-blog-post img {
-    width: 100%;
+    display: block;
+    width: 60%;
     height: auto;
-    margin: 20px 0;
+    margin: 40px auto 0 auto;
     border-radius: 10px;
     box-shadow: 0px 0px 15px #000000;
 }
@@ -62,7 +64,8 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-bottom: 4rem 0;
+    margin: 2rem;
+    padding-bottom: 50px;
 }
 
 .travel-spot .spot-text,
@@ -76,14 +79,12 @@
 
 .spot-text h3 {
     font-size: 2rem;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin: 20px 0;
 }
 
 .spot-text h4 {
     font-size: 1.7rem;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin: 10px 0;
 }
 
 .spot-text p {
@@ -92,7 +93,6 @@
 }
 
 .spot-images {
-    flex: 1;
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
@@ -138,4 +138,12 @@
 /* Responsive styling */
 @media (max-width: 1024px) {
 
+}
+
+@media (max-width: 768px) {
+    .travel-spot,
+    .travel-spot.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
 }
