@@ -20,7 +20,6 @@
 
 .hero-content h1 {
     font-size: 4.5rem;
-    margin: 0;
     color: #FFFFFF;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     font-family: 'VujahdayScript', 'Courier', 'serif';
@@ -137,7 +136,51 @@
 
 /* Responsive styling */
 @media (max-width: 1024px) {
+    .hero-content h1 {
+    font-size: 3rem;
+    }
 
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .main-blog-post {
+        padding: 20px 20px 0 20px;
+    }
+
+    .main-blog-post h2 {
+        font-size: 1.8rem;
+    }
+
+    .main-blog-post p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .main-blog-post img {
+        width: 50%;
+    }
+
+    .spot-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .spot-text h4 {
+        font-size: 1.3rem;
+    }
+
+    .spot-text p {
+        font-size: 1rem;
+    }
+
+    .spot-images img {
+        width: 90%;
+    }
+
+    .travel-spot {
+        margin: 1.5rem;
+        padding-bottom: 20px;
+    }
 }
 
 @media (max-width: 768px) {
