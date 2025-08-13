@@ -60,14 +60,18 @@
 
 .travel-spot {
     display: flex;
-    gap: 30px;
     align-items: center;
-    margin-bottom: 50px;
-    padding: 20px;
+    gap: 2rem;
+    margin-bottom: 4rem 0;
 }
 
-.spot-text {
+.travel-spot .spot-text,
+.travel-spot .spot-images {
     flex: 1;
+}
+
+.travel-spot.reverse {
+    flex-direction: row-reverse;
 }
 
 .spot-text h3 {
