@@ -16,6 +16,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 100%;
 }
 
 .hero-content h1 {
@@ -215,8 +216,8 @@
     }
 
     .call-to-action {
-    padding: 20px 20px 40px 20px;
-    margin-top: 40px;
+        padding: 20px 20px 40px 20px;
+        margin-top: 40px;
 }
 
     .call-to-action p {
@@ -224,7 +225,58 @@
     }
 
     .cta-button {
-    padding: 8px 15px;
-    font-size: 0.9rem;
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
 }
+
+@media (max-width: 435px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .main-blog-post {
+        padding: 0;
+    }
+
+    .main-blog-post h2 {
+        font-size: 1.6rem;
+        margin: 20px 20px 10px 20px;
+    }
+
+    .main-blog-post p {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-bottom: 0;
+    }
+
+    .main-blog-post img {
+        width: 90%;
+        margin: 20px auto 0 auto;
+    }
+
+    .travel-spot, .travel-spot.reverse {
+        padding-bottom: 0;
+    }
+
+    .spot-text h3 {
+        font-size: 1.4rem;
+    }
+
+    .spot-text h4 {
+        font-size: 1.2rem;
+    }
+
+    .spot-text p {
+        font-size: 0.9rem;
+    }
+
+    .spot-images img {
+        width: 100%;
+    }
 }
