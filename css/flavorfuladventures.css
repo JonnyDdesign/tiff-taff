@@ -1,0 +1,84 @@
+.flavorful-adventures {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    color: #CCCCFF;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.destinations {
+    display: grid;
+    gap: 2rem;
+}
+
+.destination {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background: #fff8f5;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.destination:hover {
+    transform: scale(1.02);
+}
+
+.destination img {
+    flex: 1 1 300px;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.destination:hover img {
+    transform: scale(1.05);
+}
+
+.destination .text {
+    flex: 1 1 300px;
+    padding: 1rem;
+}
+
+.destination .text h2 {
+    color: #CCCCFF;
+    margin-bottom: 0.5rem;
+}
+
+.destination .text p {
+    color: #444;
+    line-height: 1.5;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .destination {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .destination img {
+        max-width: 100%;
+    }
+}
