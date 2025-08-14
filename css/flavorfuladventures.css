@@ -1,9 +1,8 @@
 .flavorful-adventures {
-    max-width: 1000px;
-    margin: auto;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 2rem;
-    font-family: Arial, sans-serif;
-    color: #333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .intro {
@@ -13,72 +12,60 @@
 
 .intro h1 {
     font-size: 2.5rem;
-    color: #CCCCFF;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    color: #2e2e2e;
 }
 
 .intro p {
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: 1.2rem;
     color: #555;
-}
-
-.destinations {
-    display: grid;
-    gap: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .destination {
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    background: #fff8f5;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
 }
 
-.destination:hover {
-    transform: scale(1.02);
-}
-
-.destination img {
-    flex: 1 1 300px;
-    max-width: 400px;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.destination:hover img {
-    transform: scale(1.05);
+.destination.reverse {
+    flex-direction: row-reverse;
 }
 
 .destination .text {
-    flex: 1 1 300px;
-    padding: 1rem;
+    flex: 1;
 }
 
 .destination .text h2 {
-    color: #CCCCFF;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
+    color: #CCCCFF;
 }
 
 .destination .text p {
+    font-size: 1.1rem;
     color: #444;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
-/* Responsive styling */
+.destination .image {
+    flex: 1;
+}
+
+.destination .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
 @media (max-width: 768px) {
     .destination {
         flex-direction: column;
-        text-align: center;
     }
-
-    .destination img {
-        max-width: 100%;
+    .destination.reverse {
+        flex-direction: column;
     }
 }
