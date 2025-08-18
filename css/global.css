@@ -46,13 +46,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px 0 10px;
+    padding: 0 20px;
+    min-height: 80px;
 }
 
 .header .logo {
     width: 150px;
     height: auto;
-    aspect-ratio: 2 / 2;
 }
 
 .hamburger {
@@ -133,6 +133,7 @@ footer {
     background-repeat: no-repeat;
     color: #FFDAE9;
     text-align: center;
+    min-height: 80px;
 }
   
 footer p {
