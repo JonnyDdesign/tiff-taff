@@ -24,10 +24,14 @@
 }
 
 .destination {
+    background: #FFFFFF;
     display: flex;
     align-items: center;
     gap: 2rem;
     margin-bottom: 4rem;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px #000000;
 }
 
 .destination.reverse {
