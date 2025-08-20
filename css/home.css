@@ -10,8 +10,8 @@
 .intro-blurb {
     max-width: 1300px;
     margin: 1.5rem auto 2rem auto;
-    padding: 0 1rem;
     text-align: center;
+    min-height: 250px;
 }
 
 .blurb-text {

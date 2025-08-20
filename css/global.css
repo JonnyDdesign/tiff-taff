@@ -97,6 +97,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    min-height: 50px;
 }
 
 .nav-links ul {
@@ -186,6 +187,13 @@ footer .createdBy {
 .createdBy a:hover, a:active {
     text-decoration: underline;
     color: #CCCCFF;
+}
+
+/* Responsive styling */
+@media (max-width: 1440px) {
+    .nav-links .link {
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width: 1024px) {
