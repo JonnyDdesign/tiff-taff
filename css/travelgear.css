@@ -15,6 +15,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 90%;
 }
 
 .hero-text h1 {
@@ -160,20 +161,48 @@ aside {
     }
 
     .hero-text h1 {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 435px) {
+    .hero-text h1 {
+        font-size: 2rem;
     }
 
     .hero-text p {
         font-size: 1rem;
     }
-}
 
-@media (max-width: 600px) {
-    .hero-text h1 {
+    article h2 {
         font-size: 1.5rem;
+        text-align: center;
     }
 
-    .hero-text p {
+    article p {
+        line-height: 1.4;
         font-size: 0.9rem;
+    }
+
+    .sidebar {
+        padding: 0;
+    }
+
+    .sidebar h3 {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .sidebar li a {
+        font-size: 0.9rem;
+    }
+
+    .cta-box {
+        border-radius: 0 0 8px 8px;
     }
 }
