@@ -1,8 +1,7 @@
 .flavorful-adventures {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .intro {
@@ -11,14 +10,15 @@
 }
 
 .intro h1 {
-    font-size: 2.5rem;
+    font-family: 'VujahdayScript', 'Courier', 'serif';
+    font-size: 3rem;
     margin-bottom: 0.5rem;
-    color: #2e2e2e;
+    color: #000000;
 }
 
 .intro p {
     font-size: 1.2rem;
-    color: #555;
+    color: #000000;
     max-width: 700px;
     margin: 0 auto;
 }
