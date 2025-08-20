@@ -234,7 +234,7 @@ input[type=submit] {
     }
   
     .mainpic1,
-    .mainpic5 {
+    .mainpic6 {
       display: block;
       grid-column: auto;
       grid-row: auto;
@@ -243,11 +243,11 @@ input[type=submit] {
     .mainpic2,
     .mainpic3,
     .mainpic4,
-    .mainpic6,
+    .mainpic5,
     .mainpic7,
     .mainpic8,
     .mainpic9,
-    .fillerpic1 {
+    .mainpic10 {
       display: none;
     }
 
