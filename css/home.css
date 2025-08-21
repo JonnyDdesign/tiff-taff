@@ -1,6 +1,7 @@
 .ET {
     font-family: 'VujahdayScript', 'Courier', 'serif';
     font-size: 4rem;
+    font-display: swap;
     color: #CCCCFF;
     text-align: center;
     text-shadow: 3px 3px 3px #000000;
@@ -11,7 +12,11 @@
     max-width: 1300px;
     margin: 1.5rem auto 2rem auto;
     text-align: center;
-    min-height: 250px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .blurb-text {
@@ -21,7 +26,6 @@
     letter-spacing: normal;
     color: #000000;
     text-shadow: none;
-    margin-bottom: 1.5rem;
 }
 
 .cta-button {
@@ -31,13 +35,14 @@
     font-size: 1.8rem;
     color: #000000;
     font-weight: bold;
-    padding: 10px 25px;
+    padding: 12px 28px;
     border-radius: 8px;
     text-decoration: none;
     text-shadow: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
     letter-spacing: 2px;
+    line-height: 1;
 }
 
 .cta-button:visited {
@@ -47,6 +52,7 @@
 .cta-button:hover {
     background-color: #666699;
     color: #FFFFFF;
+    transform: scale(1.03);
 }
 
 .cta-button:active {

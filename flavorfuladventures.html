@@ -132,7 +132,17 @@
                 <p>In the heat of an Italian summer, we found the perfect escape: a creamy scoop of pistachio gelato so rich and nutty it tasted like pure sunshine in a cone.</p>
             </div>
             <div class="image">
-                <img src="images/gelato.jpg" alt="Italian gelato">
+                <img
+                    src="assets/images/pistachio-gelato-800.webp"
+                    srcset="
+                        assets/images/pistachio-gelato-400.webp,
+                        assets/images/pistachio-gelato-800.webp,
+                       assets/images/pistachio-gelato-1000.webp
+                    "
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+                    alt="Italian pistachio gelato"
+                    loading="lazy"
+                >
             </div>
         </section>
 
