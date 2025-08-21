@@ -158,35 +158,64 @@
 }
 
 .subscribe {
-    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    height: 220px;
+    padding: 1rem;
+    margin: 3rem auto;
 }
 
 .subscribe p {
     font-size: 1.4rem;
-    padding-bottom: 30px;
-    padding-right: 100px;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.subscribe form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 50px;
+}
+
+.subscribe input[type=email] {
+    font-size: 1.3rem;
+    width: 300px;
+    height: 48px;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
-input[type=email] {
-    font-size: 16px;
-    width: 70%;
-    padding: 10px 15px;
-    border: 3px solid #000000;
-}
-  
-input[type=submit] {
-    font-size: 22px;
+.subscribe input[type=submit] {
+    font-size: 1.3rem;
+    width: 120px;
+    height: 48px;
     background: #000000;
     color: #FFDAE9;
     cursor: pointer;
-    margin-left: 10px;
-    padding: 5px 10px;
+    padding: 8px 16px;
     border-radius: 10px;
+    border: none;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.subscribe input[type=submit]:hover {
+    background: #FFFFFF;
+    color: #000000;
 }
 
 @media (max-width: 1024px) {
-    .ET {
+    .ET h1 {
         font-size: 2.5rem;
     }
 
@@ -213,7 +242,7 @@ input[type=submit] {
 }
 
 @media (max-width: 768px) {
-    .ET {
+    .ET h1 {
         font-size: 2.2rem;
     }
 
@@ -257,22 +286,19 @@ input[type=submit] {
       display: none;
     }
 
-    .subscribe {
-        margin: 3rem;
+    .form-row {
+        flex-direction: column;
+        height: auto;
     }
 
-    .subscribe p {
-        padding-bottom: 20px;
-        padding-right: 0;
-    }
-
-    input[type=submit] {
-        font-size: 18px;
+    .subscribe input[type=email],
+    .subscribe input[type=submit] {
+        width: 90%;
     }
 }
 
 @media (max-width: 435px) {
-    .ET {
+    .ET h1 {
         font-size: 1.8rem;
         text-shadow: 2px 2px 2px #000000;
         letter-spacing: 6px;
@@ -297,25 +323,5 @@ input[type=submit] {
         grid-template-columns: 1fr;
         gap: 25px;
         margin: 1.5rem;
-    }
-
-    .subscribe {
-        margin: 2rem;
-    }
-
-    .subscribe p {
-        font-size: 0.9rem;
-    }
-
-    input[type=email] {
-        font-size: 0.8rem;
-        width: 100%;
-        padding: 5px;
-        border: 3px solid #000000;
-    }
-
-    input[type=submit] {
-        font-size: 1rem;
-        margin-top: 20px;
     }
 }

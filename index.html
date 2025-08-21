@@ -15,6 +15,8 @@
     <meta property="og:site_name" content="Tiff & Taff">
     <title>Tiff & Taff | Group Travel Adventures & Curated Journeys Worldwide</title>
     <link rel="icon" type="image/svg+xml" href="assets/images/tiff-taff-favicon.svg">
+    <link rel="preload" href="assets/fonts/VujahdayScript-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/PlayfairDisplaySC-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="css/global.css?v=1.1" as="style">
     <link rel="preload" href="css/home.css?v=1.1" as="style">
     <link rel="stylesheet" href="css/global.css?v=1.1">
@@ -215,9 +217,11 @@
 
     <section class="subscribe">
         <p>Have FOMO about the next great vacation? No worries, enter your email below to hear about upcoming trips:</p>
-        <form action="">
-            <input type="email" id="email" name="email" size="55" placeholder="Enter your email address to stay up to date with our travels." required autocomplete="email">
-            <input type="submit" value="Submit">
+        <form>
+            <div class="form-row">
+                <input type="email" id="email" name="email" placeholder="Email" required autocomplete="email">
+                <input type="submit" value="Submit">
+            </div>
         </form>
     </section>
 
