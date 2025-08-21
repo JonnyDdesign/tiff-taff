@@ -46,7 +46,7 @@
 .destination .text h2 {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
-    color: #CCCCFF;
+    color: #6262b2;
 }
 
 .destination .text p {
@@ -73,4 +73,14 @@
     .destination.reverse {
         flex-direction: column;
     }
+
+    .destination .text h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 435px) {
+    .flavorful-adventures {
+        padding: 1rem;
+    }    
 }
