@@ -1,7 +1,6 @@
-.ET {
+.ET h1 {
     font-family: 'VujahdayScript', 'Courier', 'serif';
     font-size: 4rem;
-    font-display: swap;
     color: #CCCCFF;
     text-align: center;
     text-shadow: 3px 3px 3px #000000;
@@ -12,10 +11,9 @@
     max-width: 1300px;
     margin: 1.5rem auto 2rem auto;
     text-align: center;
-    min-height: 300px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 1rem;
 }
 
@@ -35,14 +33,16 @@
     font-size: 1.8rem;
     color: #000000;
     font-weight: bold;
-    padding: 12px 28px;
+    padding: 12px 20px;
     border-radius: 8px;
     text-decoration: none;
-    text-shadow: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
     letter-spacing: 2px;
     line-height: 1;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .cta-button:visited {
