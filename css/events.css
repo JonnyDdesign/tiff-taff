@@ -1,11 +1,10 @@
 .eventsMain {
-    background-image: url(/assets/images/eventsMain.webp);
+    background-image: url(/assets/images/eventsMain-1000.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-
 }
 
 .eventsMain h1 {
@@ -183,6 +182,10 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    .eventsMain {
+        background-image: url(/assets/images/eventsMain-800.webp);
+    }
+
     .intro-section {
         padding: 10px;
         max-width: 550px;
