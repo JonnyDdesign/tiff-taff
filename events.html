@@ -61,6 +61,15 @@
     </header>
 
     <main class="eventsMain">
+        <picture>
+            <!-- Portrait crop for phones -->
+            <source srcset="assets/images/eventsMain-1000.webp" media="(max-width: 600px)">
+            <!-- Landscape crop for desktops -->
+            <source srcset="assets/images/eventsMain-1920.webp" media="(min-width: 1200px)">
+            <!-- Default (tablets/laptops) -->
+            <img src="assets/images/eventsMain-1280.webp" alt="Travel and Events background" class="eventsMain-img">
+        </picture>
+        
         <h1>Tides of Adventure Await</h1>
     </main>
 
