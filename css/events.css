@@ -1,5 +1,5 @@
 .eventsMain {
-    background-image: url(/assets/images/eventsMain-1000.webp);
+    background-image: url(/assets/images/eventsMain-1920.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,11 +9,11 @@
 
 .eventsMain h1 {
     font-family: 'VujahdayScript', 'Courier', 'serif';
-    font-size: 6rem;
+    font-size: 8rem;
     color: #FFFFFF;
     letter-spacing: 2.5px;
     text-align: center;
-    padding-top: 160px;
+    padding-top: 360px;
 }
 
 .intro-section {
@@ -134,6 +134,20 @@ h3 {
 }
 
 /* Responsive styling */
+@media (max-width: 2000px) {
+    .eventsMain h1 {
+        font-size: 6rem;
+        padding-top: 300px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .eventsMain h1 {
+        font-size: 5rem;
+        padding-top: 250px;
+    }
+}
+
 @media (max-width: 1440px) {
     .intro-section {
         max-width: 1200px;
@@ -159,6 +173,10 @@ h3 {
 }
 
 @media (max-width: 1024px) {
+    .eventsMain {
+        background-image: url(/assets/images/eventsMain-1280.webp);
+    }
+
     .eventsMain h1 {
         font-size: 4rem;
         padding-top: 120px;
@@ -182,10 +200,6 @@ h3 {
 }
 
 @media (max-width: 768px) {
-    .eventsMain {
-        background-image: url(/assets/images/eventsMain-800.webp);
-    }
-
     .intro-section {
         padding: 10px;
         max-width: 550px;
@@ -218,8 +232,13 @@ h3 {
 }
 
 @media (max-width: 435px) {
+    .eventsMain {
+        background-image: url(/assets/images/eventsMain-1000.webp);
+    }
+
     .eventsMain h1 {
         font-size: 3rem;
+        padding-top: 100px;
     }
 
     .intro-section {
