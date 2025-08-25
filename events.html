@@ -17,6 +17,41 @@
     <link rel="icon" type="image/svg+xml" href="assets/images/tiff-taff-favicon.svg">
     <link rel="stylesheet" href="css/global.css?v=1.1">
     <link rel="stylesheet" href="css/events.css?v=1.1">
+    <link rel="preload" as="image" href="assets/images/eventsMain-1920.webp" fetchpriority="high">
+    <link rel="preload" href="assets/fonts/VujahdayScript-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <style>
+        .eventsMain {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .eventsMain picture,
+        .eventsMain img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .eventsMain-img {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+        }
+        .eventsMain h1 {
+            font-family: 'VujahdayScript', 'Courier', 'serif';
+            font-size: 8rem;
+            color: #FFFFFF;
+            letter-spacing: 2.5px;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            top: 30%;
+            transform: translateY(-50%);
+        }
+    </style>
     <link rel="canonical" href="https://www.tiffandtaff.com/events.html">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMK1P9CRYV"></script>
@@ -62,12 +97,17 @@
 
     <main class="eventsMain">
         <picture>
-            <!-- Portrait crop for phones -->
+            <!-- Mobile -->
             <source srcset="assets/images/eventsMain-1000.webp" media="(max-width: 600px)">
-            <!-- Landscape crop for desktops -->
-            <source srcset="assets/images/eventsMain-1920.webp" media="(min-width: 1200px)">
-            <!-- Default (tablets/laptops) -->
-            <img src="assets/images/eventsMain-1280.webp" alt="Travel and Events background" class="eventsMain-img">
+            <!-- Medium -->
+            <source srcset="assets/images/eventsMain-1280.webp" media="(max-width: 1199px)">
+            <!-- Large default -->
+            <img src="assets/images/eventsMain-1920.webp"
+                 alt="Woman in kayak enjoying an island mountain view"
+                 class="eventsMain-img"
+                 fetchpriority="high"
+                 decoding="async"
+                 loading="eager">
         </picture>
         
         <h1>Tides of Adventure Await</h1>
