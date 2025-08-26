@@ -170,7 +170,17 @@
 
             <!-- Iceland card -->
             <div class="card">
-                <a href="iceland.html"><img src="assets/images/iceland.webp" alt="Seljalandsfoss Waterfall, Iceland" class="card-img"></a>
+                <a href="iceland.html">
+                    <img src="assets/images/iceland-700.webp"
+                         srcset="assets/images/iceland-400.webp 400w,
+                                 assets/images/iceland-700.webp 700w
+                                 assets/images/iceland-1000.webp 1000w"
+                         sizes="(max-width: 600px) 100vw, (max-width: 1199px) 50vw, 33vw"
+                         alt="Seljalandsfoss Waterfall, Iceland"
+                         class="card-img"
+                         loading="lazy"
+                         decoding="async">
+                </a>
                 <div class="card-content">
                     <h3 class="card-title">ICELAND</h3>
                     <p class="card-description">Experience the magic of Iceland, a land of fire and ice, with its awe-inspiring natural wonders and vibrant cultural heritage.</p>
