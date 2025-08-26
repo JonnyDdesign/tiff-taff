@@ -190,7 +190,17 @@
 
             <!-- Austria card -->
             <div class="card">
-                <a href="austria.html"><img src="assets/images/grazAustria.webp" alt="Graz, Austria" class="card-img"></a>
+                <a href="austria.html">
+                    <img src="assets/images/grazAustria-700.webp"
+                         srcset="assets/images/grazAustria-400.webp 400w,
+                                 assets/images/grazAustria-700.webp 700w
+                                 assets/images/grazAustria-1000.webp 1000w"
+                                 alt="Graz, Austria"
+                         sizes="(max-width: 600px) 100vw, (max-width: 1199px) 50vw, 33vw"
+                         class="card-img"
+                         loading="lazy"
+                         decoding="async">
+                </a>
                 <div class="card-content">
                     <h3 class="card-title">AUSTRIA</h3>
                     <p class="card-description">Discover the allure of Austria, a country renowned for its breathtaking landscapes, classical music heritage, and charming architecture.</p>
