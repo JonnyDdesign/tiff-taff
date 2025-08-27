@@ -1,15 +1,21 @@
 .franceContainer {
-    width: 80%;
-    max-width: 1200px;
+    width: 90%;
+    max-width: 1500px;
+    height: 50rem;
     margin: 2rem auto;
     position: relative;
-    background-image: url(/assets/images/france1.webp);
-    background-size: cover;
-    background-position: center;
-    height: 45rem;
     border: 2px solid #000000;
     box-shadow: 0px 0px 20px #000000;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+.franceContainer .heroImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 .franceContainer h1 {
@@ -18,7 +24,7 @@
     position: absolute;
     top: 5%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     color: #FFFFFF;
     font-size: 3rem;
     text-align: center;
@@ -149,12 +155,15 @@ th {
 }
 
 /* Responsive styling */
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
     .franceContainer {
         width: 80%;
-        height: 500px;
-        margin: 40px auto;
-        box-shadow: 0px 0px 15px #000000;
+        height: 45rem;
+    }
+}
+@media (max-width: 1024px) {
+    .franceContainer {
+        height: 30rem;
     }
 
     .franceContainer h1 {
@@ -197,7 +206,15 @@ th {
 
 @media (max-width: 768px) {
     .franceContainer {
-        height: 400px;
+        height: 25rem;
+    }
+
+    .franceContainer h1 {
+        font-size: 1.8rem;
+    }
+
+    .franceContainer h1 span {
+        font-size: 1rem;
     }
 
     h2 {
@@ -230,7 +247,7 @@ th {
 @media (max-width: 435px) {
     .franceContainer {
         width: 100%;
-        height: 350px;
+        height: 20rem;
         margin: 0;
         border: none;
         border-radius: 0;
@@ -239,12 +256,11 @@ th {
 
     .franceContainer h1 {
         top: 3%;
-        left: 50%;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .franceContainer h1 span {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     h2 {
