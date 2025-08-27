@@ -216,7 +216,17 @@
 
             <!-- Bali card -->
             <div class="card">
-                <a href="bali.html"><img src="assets/images/bali.webp" alt="Temple in Bali" class="card-img"></a>
+                <a href="bali.html">
+                    <img src="assets/images/bali-700.webp"
+                         srcset="assets/images/bali-400.webp 400w,
+                                 assets/images/bali-700.webp 700w
+                                 assets/images/bali-1000.webp 1000w"
+                                 alt="Temple in Bali"
+                         sizes="(max-width: 600px) 100vw, (max-width: 1199px) 50vw, 33vw"
+                         class="card-img"
+                         loading="lazy"
+                         decoding="async">
+                </a>
                 <div class="card-content">
                     <h3 class="card-title">BALI</h3>
                     <p class="card-description">Traveling to Bali with friends turned into an unforgettable group adventure, as we bonded over breathtaking landscapes, vibrant markets, and cultural experiences.</p>
