@@ -17,6 +17,7 @@
     <link rel="icon" type="image/svg+xml" href="assets/images/tiff-taff-favicon.svg">
     <link rel="stylesheet" href="css/global.css?v=1.1">
     <link rel="stylesheet" href="css/france.css?v=1.1">
+    <link rel="preload" as="image" href="/assets/images/france1-1200.webp" imagesrcset="/assets/images/france1-500.webp 500w, /assets/images/france1-800.webp 800w, /assets/images/france1-1200.webp 1200w, /assets/images/france1-1800.webp 1800w" imagesizes="(max-width: 600px) 100vw, (max-width: 1200px) 80vw, 1200px" type="image/webp" fetchpriority="high">
     <link rel="canonical" href="https://www.tiffandtaff.com/france.html">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMK1P9CRYV"></script>
@@ -33,7 +34,7 @@
     <header class="header">
         <a href="index.html">
             <figure>
-                <img src="assets/images/tiff-taff-logo.svg" class="logo" alt="Logo for Tiff & Taff" />
+                <img src="/assets/images/tiff-taff-logo.svg" class="logo" alt="Logo for Tiff & Taff" />
             </figure>
         </a>
 
@@ -63,14 +64,15 @@
     <main class="franceContainer">
         <img 
             src="/assets/images/france1-1200.webp" 
-            srcset="
-            /assets/images/france1-500.webp 500w,
-            /assets/images/france1-800.webp 800w,
-            /assets/images/france1-1200.webp 1200w,
-            /assets/images/france1-1800.webp 1800w"
+            srcset="/assets/images/france1-500.webp 500w,
+                    /assets/images/france1-800.webp 800w,
+                    /assets/images/france1-1200.webp 1200w,
+                    /assets/images/france1-1800.webp 1800w"
             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 80vw, 1200px"
             alt="City view of Annecy, France" 
             class="heroImage"
+            width="1200" height="800"
+            fetchpriority="high"
             decoding="async"
         >
         <h1>Annecy, France<br><span>September 20-25, 2025</span></h1>
@@ -84,10 +86,10 @@
     <section class="france-grid">
         <img 
             class="grid-item-1" 
-            src="assets/images/france2-800.webp" 
+            src="/assets/images/france2-800.webp" 
             srcset="
-                assets/images/france2-400.webp 400w,
-                assets/images/france2-800.webp 800w
+                /assets/images/france2-400.webp 400w,
+                /assets/images/france2-800.webp 800w
             "
             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 800px"
             alt="Morning canal view in Annecy, France"
@@ -97,10 +99,10 @@
 
         <img 
             class="grid-item-2" 
-            src="assets/images/france3-800.webp" 
+            src="/assets/images/france3-800.webp" 
             srcset="
-                assets/images/france3-400.webp 400w,
-                assets/images/france3-800.webp 800w
+                /assets/images/france3-400.webp 400w,
+                /assets/images/france3-800.webp 800w
             "
             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 800px"
             alt="Mountain view in Annecy, France"
@@ -110,10 +112,10 @@
 
         <img 
             class="grid-item-3" 
-            src="assets/images/france4-800.webp" 
+            src="/assets/images/france4-800.webp" 
             srcset="
-                assets/images/france4-400.webp 400w,
-                assets/images/france4-800.webp 800w
+                /assets/images/france4-400.webp 400w,
+                /assets/images/france4-800.webp 800w
             "
             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 800px"
             alt="Canal view in Annecy, France"
@@ -123,10 +125,10 @@
 
         <img 
             class="grid-item-4" 
-            src="assets/images/france5-800.webp" 
+            src="/assets/images/france5-800.webp" 
             srcset="
-                assets/images/france5-400.webp 400w,
-                assets/images/france5-800.webp 800w
+                /assets/images/france5-400.webp 400w,
+                /assets/images/france5-800.webp 800w
             "
             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 800px"
             alt="Hiking trail in Annecy, France"
@@ -136,10 +138,10 @@
 
         <img 
             class="grid-item-5" 
-            src="assets/images/france6-800.webp" 
+            src="/assets/images/france6-800.webp" 
             srcset="
-                assets/images/france6-400.webp 400w,
-                assets/images/france6-800.webp 800w
+                /assets/images/france6-400.webp 400w,
+                /assets/images/france6-800.webp 800w
             "
             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 800px"
             alt="Cheese market in Annecy, France"
@@ -149,10 +151,10 @@
 
         <img 
             class="grid-item-6" 
-            src="assets/images/france7-800.webp" 
+            src="/assets/images/france7-800.webp" 
             srcset="
-                assets/images/france7-400.webp 400w,
-                assets/images/france7-800.webp 800w
+                /assets/images/france7-400.webp 400w,
+                /assets/images/france7-800.webp 800w
             "
             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 800px"
             alt="Canal view in Annecy, France"
