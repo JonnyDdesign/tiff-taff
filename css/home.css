@@ -212,8 +212,10 @@
 .subscribe input[type=submit]:hover {
     background: #FFFFFF;
     color: #000000;
+    border: 1px solid #000000;
 }
 
+/* Responsive styling */
 @media (max-width: 1024px) {
     .ET h1 {
         font-size: 2.5rem;
@@ -261,18 +263,18 @@
     }
 
     .main {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto;
-      gap: 30px;
-      margin: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 30px;
+        margin: 2rem;
     }
   
     .mainpic1,
     .mainpic6 {
-      display: block;
-      grid-column: auto;
-      grid-row: auto;
+        display: block;
+        grid-column: auto;
+        grid-row: auto;
     }
   
     .mainpic2,
@@ -283,17 +285,26 @@
     .mainpic8,
     .mainpic9,
     .mainpic10 {
-      display: none;
+        display: none;
     }
 
     .form-row {
         flex-direction: column;
         height: auto;
+        align-items: center;
+        gap: 1rem;
     }
 
-    .subscribe input[type=email],
+    .subscribe input[type=email] {
+        width: 80%;
+        height: 44px;
+        font-size: 1rem;
+    }
+
     .subscribe input[type=submit] {
-        width: 90%;
+        width: 25%;
+        height: 44px;
+        font-size: 1.1rem;
     }
 }
 
