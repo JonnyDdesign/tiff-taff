@@ -25,7 +25,9 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-EMK1P9CRYV');
+        gtag('config', 'G-EMK1P9CRYV', {
+            'cookie_flags': 'SameSite=None;Secure'
+        });
     </script>
 </head>
 <body>
@@ -73,7 +75,7 @@
             <img
                 src="assets/images/contact-900.webp"
                 srcset="
-                    /assets/images/contact-500.webp 500w
+                    /assets/images/contact-500.webp 500w,
                     /assets/images/contact-900.webp 900w
                 "
                 sizes="(max-width: 600px) 90vw,

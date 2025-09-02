@@ -22,7 +22,7 @@
 .contactImage img {
     display: block;
     margin: 0 auto;
-    width: 90%;
+    max-width: 90%;
     height: auto;
     border: 3px solid #000000;
     border-radius: 90% 10% / 10% 30%;
